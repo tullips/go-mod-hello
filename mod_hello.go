@@ -1,5 +1,5 @@
 package go_mod_hello
 
-func ModHello() string {
-	return "Hello"
+func ModHello(name string) string {
+	return "Hello" + name
 }
